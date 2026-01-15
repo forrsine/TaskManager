@@ -19,7 +19,6 @@ public:
 private:
     DbManager();
     ~DbManager();
-    // 禁止拷贝
     DbManager(const DbManager&) = delete;
     DbManager& operator=(const DbManager&) = delete;
 
@@ -27,3 +26,4 @@ private:
 };
 
 #endif // DBMANAGER_H
+
