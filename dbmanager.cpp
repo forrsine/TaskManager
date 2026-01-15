@@ -88,3 +88,4 @@ QList<Task> DbManager::getAllTasks() {
     }
     return list;
 }
+
