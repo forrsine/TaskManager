@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h" // 必须引入这个自动生成的头文件
+#include "ui_mainwindow.h" 
 #include "dbmanager.h"
 #include <QMessageBox>
 #include <QDialog>
@@ -238,3 +238,4 @@ void MainWindow::onShowStats() {
     layout->addWidget(btnClose);
     dlg.exec();
 }
+
